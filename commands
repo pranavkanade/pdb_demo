@@ -1,0 +1,32 @@
+b / break - with no args it shows the list of all the break points
+c / cont / continue
+n / next
+s / step
+cl / clear - clear the breakpoints
+h / help
+d / down -
+u / up
+disable
+enable
+exit
+q / quit
+l / list
+p
+
+bt / w / where - stack trace
+a / args - find the arguments of the current function
+whatis - prints type of the arguments
+j - jump
+
+commands - add commands to execute before any breakpoint is served
+condition - make any existing breakpoints conditional;
+            If u do not specify the conditon bp will become unconditional
+ignore - Sets the ignore count for the given breakpoint number
+*debug - Enter a recursive debugger that steps through the code argument
+r / return - Continue execution until the current function returns.
+pp - Pretty-print the value of the expression.
+return / run - Restart the debugged python program
+tbreak - breakpoint which gets removed when first hit.
+unt / until - Continue execution until the line with a number greater than the current
+                one is reached or until the current frame returns
+                e.g - case of list
